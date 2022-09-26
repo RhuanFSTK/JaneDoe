@@ -1,0 +1,88 @@
+/* Importar font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* Seletor universal * (aplica em tudo) */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Cabeçalho todo */
+#menu {
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    box-shadow: 2px 2px 10px 0px black;
+}
+
+/* nome principal da pagina */
+#jane-doe {
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.nav-bar {
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* Lista PAI */
+.nave-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Navegação (PAI) */
+.nav {
+    display: inline-block;
+    padding: 10px 50px;
+
+}
+
+/* Configuração de navegadores dentro da lista (PAI E FILHO) */
+.nav-options {
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+}
+
+/* Transição (FILHO) */
+.nav-options:hover {
+    transition: 0.3;
+    font-size: large;
+    font-weight: bold;
+}
+
+.footer {
+    background: #999;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+}
+
+
+@media (max-width:630px) {
+
+    .nav-bar {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width:460px) {
+
+    .nav-bar {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
+}

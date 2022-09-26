@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.home {
+  font-weight: 900;
+}
+
+.music-content {
+  margin: 180px;
+  max-width: 70%;
+}
+
+.muscic.title {
+  font-size: 30px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+}
+
+.video-description {
+  padding: 20px;
+  margin: 3px;
+}
+
+.music {
+  margin: 3px;
+}
+
+.video-conteiner {
+  display: flex;
+  inset-inline: center;
+  border: 3px solid black;
+
+}
+
+.credits p {
+  line-height: 3px;
+  margin-top: 30px;
+}
+
+@media (max-width: 630px) {
+
+  #music-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .video-container iframe {
+    width: 100%;
+    height: 240px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+  }
+}
+
+@media (max-width: 460px) {
+
+  .music-content {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  .video-container iframe {
+    width: 250px;
+    height: 250px;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  .video-container {
+    display: none;
+  }
+
+}
+
+@media (max-width: 680px) {
+
+  .video-conteiner {
+    border: none;
+  }
+
+}
+
+@media (max-width: 680px) {
+
+  .music-content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .credits {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 340px;
+    height: 340px;
+
+  }
+
+}
